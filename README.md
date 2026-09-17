@@ -24,10 +24,18 @@
 Desenvolver o veículo "O Rei" para participação na Competição de Carrinhos do Projeto Integrador, percorrendo a pista conforme o regulamento e respondendo aos comandos de controle remoto.
 
 ## 2. Conceito da solução
-- arquitetura de tração: (preencher quando o Lucas/José definirem)
-- direção: (preencher)
-- controlador principal: ESP32
-- telemetria e comunicação: Wi-Fi UDP
+Descrever, de forma objetiva, a solução escolhida pela equipe.
+
+Exemplo:
+
+- arquitetura de tração: diferencial com dois motores;
+- direção: ____________________;
+- controlador principal: ____________________;
+- driver de motores: ____________________;
+- câmera embarcada: ____________________;
+- estratégia de alimentação: ____________________;
+- sensores adicionais, se houver: ____________________;
+- recursos de automação, se houver: ____________________.
 
   ---
 
