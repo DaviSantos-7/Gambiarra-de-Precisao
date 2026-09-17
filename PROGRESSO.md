@@ -12,18 +12,13 @@ Este arquivo deve registrar, de forma objetiva, o andamento semanal do projeto. 
 # Semana 1 — 17/09/2026 a 23/09/2026
 
 ## Planejado
-- Criar a estrutura inicial do repositório.
-- Dividir as áreas de atuação da equipe.
-- Definir o microcontrolador principal e o método de comunicação.
-- Definir a arquitetura geral do veículo.
-- Escolher a arquitetura de tração e direção.
 - Elaborar o primeiro diagrama elétrico.
-- Criar a estrutura inicial do repositório.
+  
+
 
 
 ## Concluído
-- Arquitetura do repositório criada e README.md configurado.
-- Definido o uso do ESP32 com comunicação Wi-Fi UDP.
+
 
 
 ## Não concluído
