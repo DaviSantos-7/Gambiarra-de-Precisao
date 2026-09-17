@@ -1,4 +1,5 @@
 # Gambiarra-de-Precisao
+
 # Projeto Integrador — Competição de Carrinhos
 
 ## Equipe
@@ -6,37 +7,46 @@
 **Nome da equipe:** Gambiarra de Precisão
 **Veículo:** O Rei
 **Turma:** Mecatrônica - IFRN Parnamirim
-**Professor / Orientador:** Breno Meira
+**Professor / Orientador:** Breno Moura
 
 ### Integrantes e áreas de atuação
 
-| Integrante | Área principal | Responsabilidades |
-|---|---|---|
-| Davi Lucas | Piloto | Testes de dirigibilidade, calibração e operação |
-| José Douglas | Mecânica | Chassi, direção, transmissão e montagem física |
-| Lucas Gabriel | Projetista | Arquitetura, desenhos, organização da documentação |
-| Maria Vitória | Eletricista | Alimentação, drivers, motores, diagramas elétricos e conexões |
-| Lilian Anny | Programadora | Código do ESP32, controle PWM soft-start e telemetria UDP |
+| Integrante    | Área principal | Responsabilidades                                             |
+| ------------- | -------------- | ------------------------------------------------------------- |
+| Davi Lucas    | Piloto         | Testes de dirigibilidade, calibração e operação               |
+| José Douglas  | Mecânica       | Chassi, direção, transmissão e montagem física                |
+| Lucas Gabriel | Projetista     | Arquitetura, desenhos, organização da documentação            |
+| Maria Vitória | Eletricista    | Alimentação, drivers, motores, diagramas elétricos e conexões |
+| Lilian Anny   | Programadora   | Código do ESP32, controle PWM soft-start e telemetria UDP     |
 
 ---
 
 ## 1. Objetivo do projeto
+
 Desenvolver o veículo "O Rei" para participação na Competição de Carrinhos do Projeto Integrador, percorrendo a pista conforme o regulamento e respondendo aos comandos de controle remoto.
 
 ## 2. Conceito da solução
+
 Descrever, de forma objetiva, a solução escolhida pela equipe.
 
 Exemplo:
 
 - arquitetura de tração: diferencial com dois motores;
-- direção: ____________________;
-- controlador principal: ____________________;
-- driver de motores: ____________________;
-- câmera embarcada: ____________________;
-- estratégia de alimentação: ____________________;
-- sensores adicionais, se houver: ____________________;
-- recursos de automação, se houver: ____________________.
 
+- direção: ____________________;
+
+- controlador principal: ____________________;
+
+- driver de motores: ____________________;
+
+- câmera embarcada: ____________________;
+
+- estratégia de alimentação: ____________________;
+
+- sensores adicionais, se houver: ____________________;
+
+- recursos de automação, se houver: ____________________.
+  
   ---
 
 ## 3. Arquitetura geral
@@ -136,12 +146,12 @@ docs/
 
 ## 7. Materiais e componentes
 
-| Item | Quantidade | Origem | Situação |
-|---|---:|---|---|
-| ESP32 | 1 | Kit da organização | Disponível |
-| Motor DC | 2 | Kit da organização | Disponível |
-| Driver de motor | 1 | Kit da organização | Disponível |
-| ____________________ | ___ | Equipe / organização | ____________________ |
+| Item                 | Quantidade | Origem               | Situação             |
+| -------------------- | ----------:| -------------------- | -------------------- |
+| ESP32                | 1          | Kit da organização   | Disponível           |
+| Motor DC             | 2          | Kit da organização   | Disponível           |
+| Driver de motor      | 1          | Kit da organização   | Disponível           |
+| ____________________ | ___        | Equipe / organização | ____________________ |
 
 ---
 
@@ -179,8 +189,8 @@ Os campos definitivos de telemetria serão definidos pela equipe em conjunto com
 
 Registrar os testes relevantes do projeto. Para registros mais detalhados, utilizar `docs/testes/`.
 
-| Data | Teste | Resultado | Próxima ação |
-|---|---|---|---|
+| Data       | Teste                | Resultado            | Próxima ação         |
+| ---------- | -------------------- | -------------------- | -------------------- |
 | __/__/2026 | ____________________ | ____________________ | ____________________ |
 
 ---
