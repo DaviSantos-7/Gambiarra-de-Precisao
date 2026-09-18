@@ -12,33 +12,39 @@ Este arquivo registra, de forma objetiva, o andamento semanal do projeto. Os reg
 # Semana 1 — 17/09/2026 a 23/09/2026
 
 ## Planejado:
-- Organizar a equipe e definir as responsabilidades dos integrantes.
-- Analisar o regulamento da competição.
-- Definir as características iniciais do veículo.
-- Criar e organizar o repositório do GitHub.
+- Organizar a equipe e definir as responsabilidades dos integrantes;
+- Analisar o regulamento da competição;
+- Definir as características iniciais do veículo;
+- Criar e organizar o repositório do GitHub;
 - Iniciar a definição da arquitetura geral do veículo.
 
 ## Concluído:
+- Organização inicial da equipe;
+- Definição das responsabilidades dos integrantes;
+- Análise dos principais requisitos do regulamento;
+- Criação e organização inicial do repositório no GitHub;
+- Definição inicial da arquitetura do veículo.
 
 
-
-## Não concluído
-- ____________________
+## Não concluído:
+- [Registrar somente o que realmente não foi concluído.]
 
 ## Problemas ou impedimentos
-- ____________________
+ [Registrar problemas encontrados durante a semana.]
 
-## Decisões técnicas da semana
-- ______________________
+## Decisões técnicas da semana:
+- Definição do ESP32 como controlador principal;
 
-## Testes realizados
+## Testes realizados:
 | Teste | Resultado |
 |---|---|
 
 
-## Próximas ações
-
-
+## Próximas ações:
+- Iniciar os desenhos técnicos do veículo.
+- Desenvolver o esquema elétrico inicial.
+- Iniciar a programação.
+- Continuar a organização da documentação técnica.
 
 ---
 
