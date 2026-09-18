@@ -27,25 +27,25 @@ Desenvolver o veículo "O Rei" para participação na Competição de Carrinhos 
 
 ## 2. Conceito da solução:
 
-O veículo utiliza uma arquitetura de tração baseada em motores CC, permitindo o deslocamento e o controle da direção por meio da variação dos motores.
+O veículo utiliza uma arquitetura de tração baseada em dois motores CC com acionamento diferencial, permitindo o deslocamento e o controle da direção por meio do controle independente dos motores. O ESP32 atua como controlador principal, recebendo os comandos do sistema da organização e acionando os motores conforme os comandos recebidos.
 
-- arquitetura de tração: diferencial com dois motores;
+- **Arquitetura de tração:** diferencial com dois motores CC;
 
-- direção: ____________________;
+- **Direção:** diferencial, por controle independente dos motores;
 
-- Controlador principal: ESP32;
+- **Controlador principal:** ESP32;
 
-- Driver de motores: Módulo ponte H;
+- **Driver de motores:** módulo ponte H;
 
-- Câmera embarcada: Sistema de câmera instalado no veículo;
+- **Câmera embarcada:** sistema de câmera instalado no veículo;
 
-- Estratégia de alimentação: Bateria utilizada para alimentação dos sistemas;
+- **Estratégia de alimentação:** bateria utilizada para alimentação dos sistemas;
 
-- Sensores adicionais: Conforme necessidade do projeto;
+- **Sensores adicionais:** conforme necessidade do projeto;
 
-- Comunicação: Sem fio entre o sistema de controle e o veículo;
+- **Comunicação:** comunicação sem fio com o sistema de controle da organização;
 
-- recursos de automação: ____________________.
+- **Recursos de automação:** controle eletrônico dos motores e processamento dos comandos pelo ESP32.
   
   ---
 
