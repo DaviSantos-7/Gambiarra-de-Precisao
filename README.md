@@ -27,7 +27,7 @@ Desenvolver o veículo "O Rei" para participação na Competição de Carrinhos 
 
 ## 2. Conceito da solução
 
-Descrever, de forma objetiva, a solução escolhida pela equipe.
+O veículo utiliza uma arquitetura de tração baseada em motores CC, permitindo o deslocamento e o controle da direção por meio da variação dos motores.
 
 Exemplo:
 
@@ -35,48 +35,60 @@ Exemplo:
 
 - direção: ____________________;
 
-- controlador principal: ____________________;
+- Controlador principal: ESP32;
 
-- driver de motores: ____________________;
+- Driver de motores: Módulo ponte H;
 
-- câmera embarcada: ____________________;
+- Câmera embarcada: Sistema de câmera instalado no veículo;
 
-- estratégia de alimentação: ____________________;
+- Estratégia de alimentação: Bateria utilizada para alimentação dos sistemas;
 
-- sensores adicionais, se houver: ____________________;
+- Sensores adicionais: Conforme necessidade do projeto;
 
-- recursos de automação, se houver: ____________________.
+- Comunicação: Sem fio entre o sistema de controle e o veículo;
+
+- recursos de automação: ____________________.
   
   ---
 
 ## 3. Arquitetura geral
 
-Inserir aqui um diagrama da arquitetura do sistema ou um link para o arquivo correspondente em `docs/arquitetura/`.
-
-Exemplo de organização:
+É composta pelos seguintes elementos:
 
 ```text
-Volante da organização
-        |
-        | UDP
-        v
-      ESP32
-        |
-        +--> controle dos motores
-        +--> sensores
-        +--> atuadores
-        |
-        +--> MQTT --> telemetria
+                 Volante da organização
+                          |
+                          | UDP
+                          v
+                        ESP32
+                          |
+          +---------------+---------------+
+          |               |               |
+          v               v               v
+   Controle dos       Sensores        Atuadores
+      motores
+          |
+          +--> Motor esquerdo
+          |
+          +--> Motor direito
+          
+                        ESP32
+                          |
+                          | MQTT
+                          v
+                     Telemetria
 
-Celular embarcado --> transmissão de vídeo
-```
+              Celular embarcado
+                       |
+                       v
+                Transmissão de vídeo
 
 ### Subsistemas
 
-- **Mecânica:** descrever resumidamente.
-- **Eletrônica:** descrever resumidamente.
-- **Software:** descrever resumidamente.
-- **Comunicação:** descrever resumidamente.
+- **Mecânica:** chassi, rodas, motores e elementos de fixação;
+- **Eletrônica:** ESP32, driver de motores, alimentação e conexões;
+- **Software:** Processamento dos comandos e controle dos motores;
+- **Comunicação:** UDP para recebimento dos comandos e MQTT para telemetria.
 - **Alimentação:** descrever resumidamente.
 
 ---
