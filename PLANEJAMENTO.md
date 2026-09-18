@@ -10,7 +10,7 @@ Este documento define o planejamento das atividades a serem feitas. O registro d
 ---
 
 ## Semana 1 (17/09/2026 a 23/09/2026)
-- [ ] ____________________
+- [ ] ___________________
 - [ ] ____________________
 - [ ] ____________________
 
