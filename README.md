@@ -29,8 +29,6 @@ Desenvolver o veículo "O Rei" para participação na Competição de Carrinhos 
 
 O veículo utiliza uma arquitetura de tração baseada em motores CC, permitindo o deslocamento e o controle da direção por meio da variação dos motores.
 
-Exemplo:
-
 - arquitetura de tração: diferencial com dois motores;
 
 - direção: ____________________;
