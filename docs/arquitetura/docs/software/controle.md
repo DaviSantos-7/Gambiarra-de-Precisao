@@ -20,7 +20,6 @@ A lógica de controle contempla os comandos necessários para o deslocamento e a
 
 Durante o desenvolvimento serão realizados testes para verificar:
 
-- recebimento dos comandos;
 - resposta dos motores;
 - controle de velocidade;
 - controle de direção;
