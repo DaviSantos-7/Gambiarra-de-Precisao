@@ -123,15 +123,11 @@ Atualizar esta seção ao longo do projeto.
 - Registrar os resultados dos testes e atualizar a documentação técnica.
 ---
 
-## 5. Planejamento:
+## 5. Planejamento e acompanhamento:
 
-O planejamento semanal da equipe está disponível em:
-
-[`PLANEJAMENTO.md`](PLANEJAMENTO.md)
-
-O registro semanal de atividades está disponível em:
-
-[`PROGRESSO.md`](PROGRESSO.md)
+- [Planejamento do projeto](PLANEJAMENTO.md)
+- [Registro de progresso](PROGRESSO.md)
+- [Cronograma detalhado](https://drive.google.com/file/d/17hfmQDEQwMn1P48ckapg5prJT3HRXAut/view?usp=sharing)
 
 ---
 
