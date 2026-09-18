@@ -9,7 +9,7 @@
 **Turma:** Mecatrônica - IFRN Parnamirim
 **Professor / Orientador:** Breno Moura
 
-### Integrantes e áreas de atuação
+### Integrantes e áreas de atuação:
 
 | Integrante    | Área principal | Responsabilidades                                             |
 | ------------- | -------------- | ------------------------------------------------------------- |
@@ -21,11 +21,11 @@
 
 ---
 
-## 1. Objetivo do projeto
+## 1. Objetivo do projeto:
 
 Desenvolver o veículo "O Rei" para participação na Competição de Carrinhos do Projeto Integrador, percorrendo a pista conforme o regulamento e respondendo aos comandos de controle remoto.
 
-## 2. Conceito da solução
+## 2. Conceito da solução:
 
 O veículo utiliza uma arquitetura de tração baseada em motores CC, permitindo o deslocamento e o controle da direção por meio da variação dos motores.
 
@@ -49,7 +49,7 @@ O veículo utiliza uma arquitetura de tração baseada em motores CC, permitindo
   
   ---
 
-## 3. Arquitetura geral
+## 3. Arquitetura geral:
 
 É composta pelos seguintes elementos:
 
@@ -81,13 +81,13 @@ O veículo utiliza uma arquitetura de tração baseada em motores CC, permitindo
                        v
                 Transmissão de vídeo
 
-### Subsistemas
+### Subsistemas:
 
 - **Mecânica:** chassi, rodas, motores e elementos de fixação;
 - **Eletrônica:** ESP32, driver de motores, alimentação e conexões;
 - **Software:** Processamento dos comandos e controle dos motores;
-- **Comunicação:** UDP para recebimento dos comandos e MQTT para telemetria.
-- **Alimentação:** descrever resumidamente.
+- **Comunicação:** UDP para recebimento dos comandos e MQTT para telemetria;
+- **Vídeo:** Celular embarcado utilizado para transmissão de imagem ao piloto.
 
 ---
 
@@ -95,7 +95,7 @@ O veículo utiliza uma arquitetura de tração baseada em motores CC, permitindo
 
 Atualizar esta seção ao longo do projeto.
 
-### Concluído
+### Concluído:
 
 - [ ] Definição da arquitetura geral
 - [ ] Projeto mecânico inicial
@@ -108,17 +108,22 @@ Atualizar esta seção ao longo do projeto.
 - [ ] Integração da câmera
 - [ ] Outros: ____________________
 
-### Em desenvolvimento
+### Em desenvolvimento:
 
-Descrever as atividades em andamento.
+- Atividades em andamento:
 
-### Pendências principais
+### Pendências principais:
 
-Descrever os principais pontos ainda não resolvidos.
-
+- Finalizar a integração dos componentes mecânicos e eletrônicos do veículo;
+- Ajustar o controle dos motores e a resposta aos comandos do volante;
+- Realizar e aprimorar os testes de deslocamento e dirigibilidade;
+- Finalizar a integração e os testes da câmera embarcada;
+- Validar a comunicação entre o veículo e o sistema da organização;
+- Realizar testes integrados para identificar e corrigir falhas;
+- Registrar os resultados dos testes e atualizar a documentação técnica.
 ---
 
-## 5. Planejamento
+## 5. Planejamento:
 
 O planejamento semanal da equipe está disponível em:
 
@@ -130,7 +135,7 @@ O registro semanal de atividades está disponível em:
 
 ---
 
-## 6. Documentação técnica
+## 6. Documentação técnica:
 
 Organizar a documentação técnica, preferencialmente, nas seguintes pastas:
 
@@ -143,7 +148,7 @@ docs/
 └── testes/
 ```
 
-### Documentos disponíveis
+### Documentos disponíveis:
 
 - Arquitetura geral: ____________________
 - Projeto mecânico: ____________________
@@ -154,7 +159,7 @@ docs/
 
 ---
 
-## 7. Materiais e componentes
+## 7. Materiais e componentes:
 
 | Item                 | Quantidade | Origem               | Situação             |
 | -------------------- | ----------:| -------------------- | -------------------- |
@@ -165,9 +170,9 @@ docs/
 
 ---
 
-## 8. Comunicação com a organização
+## 8. Comunicação com a organização:
 
-### Comandos
+### Comandos:
 
 - Protocolo: UDP unicast
 - Porta: 5000
@@ -185,7 +190,7 @@ Formato esperado:
 }
 ```
 
-### Telemetria
+### Telemetria:
 
 - Protocolo: MQTT 3.1.1 sobre TCP
 - Porta: 1883
@@ -195,9 +200,9 @@ Os campos definitivos de telemetria serão definidos pela equipe em conjunto com
 
 ---
 
-## 9. Testes realizados
+## 9. Testes realizados:
 
-Registrar os testes relevantes do projeto. Para registros mais detalhados, utilizar `docs/testes/`.
+Registrar os testes relevantes do projeto. Para registros mais detalhados, utilizaremos `docs/testes/`.
 
 | Data       | Teste                | Resultado            | Próxima ação         |
 | ---------- | -------------------- | -------------------- | -------------------- |
@@ -205,6 +210,10 @@ Registrar os testes relevantes do projeto. Para registros mais detalhados, utili
 
 ---
 
-## 10. Observações
+## 10. Observações:
 
-Registrar aqui informações importantes que não se encaixem nas demais seções.
+- O projeto encontra-se em desenvolvimento e poderá sofrer alterações durante as etapas de montagem, integração e testes.
+- As decisões técnicas e alterações realizadas ao longo do desenvolvimento serão registradas no repositório.
+- Os resultados dos testes serão utilizados para orientar os ajustes no veículo e atualizar a documentação.
+- O planejamento poderá ser atualizado conforme o andamento do projeto, com as alterações devidamente registradas no `PROGRESSO.md`.
+- A equipe priorizará a validação gradual dos subsistemas antes dos testes integrados e da preparação final para a competição.
