@@ -101,7 +101,8 @@ Atualizar esta seção ao longo do projeto.
 - [ ] Projeto mecânico inicial
 - [ ] Diagrama elétrico inicial
 - [ ] Comunicação com o sistema da organização
-- [ ] Controle dos motores em bancada
+- [x] Controle dos motores em bancada
+- [x] Controle do carrinho pelo celular via Bluetooth
 - [ ] Integração mecânica
 - [ ] Integração eletroeletrônica
 - [ ] Teste do veículo em movimento
@@ -198,11 +199,17 @@ Os campos definitivos de telemetria serão definidos pela equipe em conjunto com
 
 ## 9. Testes realizados:
 
-Registrar os testes relevantes do projeto. Para registros mais detalhados, utilizaremos `docs/testes/`.
+Os testes foram realizados em etapas, começando pelo acionamento dos motores e avançando para a integração dos sistemas de controle do carrinho.
+## 9. Testes realizados
 
-| Data       | Teste                | Resultado            | Próxima ação         |
-| ---------- | -------------------- | -------------------- | -------------------- |
-| __/__/2026 | ____________________ | ____________________ | ____________________ |
+Os testes foram realizados em etapas, começando pelo acionamento dos motores e avançando para a integração dos sistemas de controle do carrinho.
+
+| Data | Teste | Resultado | Próxima ação |
+|---|---|---|---|
+| 22/09/2026 | Testes dos dois códigos da ponte H com o kit disponibilizado pela COLAB | Testes iniciais de acionamento dos motores realizados | Prosseguir com os testes do sistema de direção |
+| 29/09/2026 | Testes do sistema de direção | Testes do mecanismo de direção realizados | Integrar a direção ao sistema de controle do carrinho |
+| 05/10/2026 | Teste de comunicação via Bluetooth entre o celular e o ESP32 | Comunicação Bluetooth testada | Verificar e aprimorar a resposta do carrinho aos comandos |
+| 06/10/2026 | Primeiro teste de movimentação no chão, utilizando as baterias, sem conexão à fonte de alimentação externa | Teste de movimentação realizado com alimentação por baterias | Continuar os testes de tração, direção, autonomia e dirigibilidade |
 
 ---
 
