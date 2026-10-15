@@ -99,13 +99,13 @@ Atualizar esta seção ao longo do projeto.
 
 - [ ] Definição da arquitetura geral
 - [ ] Projeto mecânico inicial
-- [ ] Diagrama elétrico inicial
+- [x] Diagrama elétrico inicial
 - [ ] Comunicação com o sistema da organização
 - [x] Controle dos motores em bancada
 - [x] Controle do carrinho pelo celular via Bluetooth
 - [ ] Integração mecânica
 - [ ] Integração eletroeletrônica
-- [ ] Teste do veículo em movimento
+- [x] Teste do veículo em movimento
 - [ ] Integração da câmera
 - [ ] Outros: ____________________
 
