@@ -61,8 +61,8 @@ O veículo utiliza uma arquitetura de tração baseada em dois motores CC com ac
                         ESP32
                           |
                           +
-          |               |              
-          v               v               
+                          |              
+                          v               
                      Controle dos            
                         motores
                           |
