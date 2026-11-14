@@ -60,16 +60,20 @@ O veículo utiliza uma arquitetura de tração baseada em dois motores CC com ac
                           v
                         ESP32
                           |
-          +---------------+---------------+
-          |               |               |
-          v               v               v
-   Controle dos       Sensores        Atuadores
-      motores
-          |
-          +--> Motor esquerdo
-          |
-          +--> Motor direito
-          
+                          +
+          |               |              
+          v               v               
+                     Controle dos            
+                        motores
+                          |
+                          +
+                          |
+                     Motor esquerdo
+                          |
+                          +
+                          |
+                     Motor direito
+                          |
                         ESP32
                           |
                           | MQTT
@@ -97,16 +101,17 @@ Atualizar esta seção ao longo do projeto.
 
 ### Concluído:
 
-- [ ] Definição da arquitetura geral
-- [ ] Projeto mecânico inicial
+- [x] Definição da arquitetura geral
+- [x] Projeto mecânico inicial
 - [x] Diagrama elétrico inicial
-- [ ] Comunicação com o sistema da organização
 - [x] Controle dos motores em bancada
 - [x] Controle do carrinho pelo celular via Bluetooth
-- [ ] Integração mecânica
-- [ ] Integração eletroeletrônica
+- [x] Integração mecânica
+- [x] Integração eletroeletrônica
 - [x] Teste do veículo em movimento
 - [ ] Integração da câmera
+- [ ] Configuração definitiva do sistema de baterias 
+- [ ] Comunicação com o sistema da organização
 - [ ] Outros: ____________________
 
 ### Em desenvolvimento:
@@ -162,7 +167,7 @@ docs/
 | -------------------- | ----------:| -------------------- | -------------------- |
 | ESP32                | 1          | Kit da organização   | Disponível           |
 | Motor DC             | 2          | Kit da organização   | Disponível           |
-| Driver de motor      | 1          | Kit da organização   | Disponível           |
+| Driver de motor(L298N)| 1          | Kit da organização   | Disponível           |
 | ____________________ | ___        | Equipe / organização | ____________________ |
 
 ---
